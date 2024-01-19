@@ -1,29 +1,58 @@
-site_name: ПО Гамма
+site_name: Платформа Гамма
+site_url: https://gamma-manual.ru/
+site_description: Инструкция по использованию ПО Гамма
+site_author: ООО "Омни Дата"
 theme: 
   name: material
+  #name: material
   language: ru
-  logo: imgs/Gamma_Icon_full.png
-  favicon: imgs/Gamma_Icon_full.png
+  logo: files/Gamma_Icon_full.png
+  favicon: files/Gamma_Icon_full.png
   palette:
 
     # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: переключить в темный режим
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: переключить в светлый режим
 
   features:
-    #- navigation.tabs
+    - navigation.tabs
     - navigation.path
     - navigation.top
     - toc.follow
     - toc.integrate
     - navigation.indexes
 
+markdown_extensions:
+  - fenced_code
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  #- attr_list
+  - def_list
 
+
+
+nav:
+  - Установка: install/index.md
+  - Интерфейс:
+    - Интерфейс: ux/index.md
+    - Базовые окна: ux/basic_widgets/index.md
+    - Инструменты анализа: ux/graph_widgets/index.md
+  - Обработка: preprocessing/index.md
+  - Интерпретация: interpretation/index.md
+  - Python: python/index.md
+  - Другое: other/index.md
+
+
+copyright: Все права защищены, ООО "Омни Дата", 2024
