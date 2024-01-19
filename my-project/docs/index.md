@@ -6,32 +6,23 @@
 Приятной работы.
 Команда разработки ПО "Платформа Гамма"
 
+<div class="grid cards" markdown>
 
-## [Установка ПО](install/index.md)
+-	[Установка ПО](install/index.md)
+	[![](files/gamma_install.jpg)](install/index.md)
+- [Пользовательский интерфейс](ux/index.md)
+	[![](files/main_window.png)](ux/index.md)
+- [Обзор процесса работы в ПО](workflow/index.md)
+	[![](files/workflow.png)](workflow/index.md)
+- [Предобработка данных](processing/index.md)
+	[![](files/processing.png)](processing/index.md)
+- [Интерпретация данных ГИС](interpretation/index.md)
+	[![](files/interpretation.png)](interpretation/index.md)
+- [Написание алгоритмов на Python](python/index.md)
+	[![](files/python.png)](python/index.md)
 
-[![](install/index.md)
-
-## [Пользовательский интерфейс](ux/index.md)
-
-[![](ux/index.md)
-
-## [Обзор процесса работы в ПО](workflow/index.md)
-
-[![](workflow/index.md)
-
-## [Предобработка данных](processing/index.md)
-
-[![](processing/index.md)
-
-## [Интерпретация данных ГИС](interpretation/index.md)
-
-[![](interpretation/index.md)
-
-## [Написание алгоритмов на Python](python/index.md)
-
-## [![](python/index.md)
+</div>
 
 
 
 
-[Термины и аббревиатуры](terms/basics/index.md)

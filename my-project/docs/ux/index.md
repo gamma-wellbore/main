@@ -1,7 +1,7 @@
 # Пользовательский интерфейс
 ## Базовые окна интерфейса ПО
 
-[Основное окно](basic_widgets/main_window.md)
+[Главное окно](basic_widgets/main_window.md)
 
 [Браузер проектов](basic_widgets/project_browser.md)
 

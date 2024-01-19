@@ -17,14 +17,5 @@
 
 Кроме того, все записи сохраняются в LOG файлах в корневой папке интерфейса ПО.
 
-![](basic_widgets/journal_imgs/log%20files%20in%20Explorer.png)
+![](journal_imgs/logfilesExplorer.png)
 
-# Связанные страницы
-
-[project_browser](project_browser.md)
-
-[workflow](workflow.md)
-
-[properties_window](properties_window.md)
-
-[main_window](main_window.md)

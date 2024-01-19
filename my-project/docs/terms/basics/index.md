@@ -1,12 +1,12 @@
 # Термины и аббревиатуры
 
 
-[Dataset](Dataset.md)
+[dataset](dataset.md)
 
-[LQC](LQC.md)
+[lqc](lqc.md)
 
-[Нода](Нода.md)
+[node](node.md)
 
-[Index Dataset](Index%20Dataset.md)
+[index Dataset](index%20Dataset.md)
 
-[Python IDE](Python%20IDE.md)
+[python_ide](python_ide.md)

@@ -28,7 +28,7 @@
 
 ![](histogram_img/AddWellsToHistogram.png)
 
-??? Example "Видео пример"
+??? Example ":fontawesome-brands-youtube: Видео пример"
 	![](histogram_img/AddDataToHistogram.gif)
 
 
@@ -99,7 +99,7 @@
 
 ## Сохранение гистограммы
 
-Для сохранения гистограммы достаточно нажать [ПКМ](../../terms/basics/ПКМ.md) в любом месте на графике и выбрать Save Plot (Сохранить график):
+Для сохранения гистограммы достаточно нажать [rmb](../../terms/basics/rmb.md) в любом месте на графике и выбрать Save Plot (Сохранить график):
 
 ![](histogram_img/Histogram_Save.png)
 

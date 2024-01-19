@@ -2,4 +2,4 @@
 
 Инструмент для табличного просмотра и редактирования данных
 
-![](graph_widgets/tableview_img/Pasted%20image%2020240119103306.png)
+![](tableview_img/Pasted%20image%2020240119103306.png)

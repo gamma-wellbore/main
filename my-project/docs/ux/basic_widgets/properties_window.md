@@ -15,12 +15,3 @@
 
 
 
-## Связанные страницы
-
-[project_browser](basic_widgets/project_browser.md)
-
-[journal](basic_widgets/journal.md)
-
-[workflow](workflow.md)
-
-[main_window](basic_widgets/main_window.md)
