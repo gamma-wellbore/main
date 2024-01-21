@@ -1,8 +1,21 @@
-# Предобработка данных
+# Обработка данных ГИС
 
-[Расчет инклинометрии](inclinometry_calc.md)
+## Предварительная обработка
 
-[Сшивка кривых](log_splice.md)
+[Расчет инклинометрии](inclinometry/inclinometry_calc.md)
 
-[Удаление части кривой](log_cut.md)
+[Сшивка кривых](preprocessing/log_splice.md)
+
+[Удаление части кривой](preprocessing/log_cut.md)
+
+[Увязка каротажа](preprocessing/log_shifting.md)
+
+
+## Попластовая интерпретация
+
+[Разбивка на пропластки](layering/layering_define.md)
+
+[Осреднение кривых](layering/layering_averaging.md)
+
+[Использование Python для попластовых кривых](../python/python_averagevalues.md)
 

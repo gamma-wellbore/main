@@ -1,3 +1,6 @@
+---
+icon: material/newspaper-variant-outline
+---
 # Пользовательский интерфейс
 ## Базовые окна интерфейса ПО
 
@@ -15,6 +18,16 @@
 
 [Планшет](graph_widgets/logview.md)
 
-[Кросс-плот](graph_widgets/сross-plot.md)
+[Кроссплот](graph_widgets/сross-plot.md)
 
 [Гистограмма](graph_widgets/histogram.md)
+
+[Таблица](graph_widgets/tableview.md)
+
+[Карта](graph_widgets/map.md)
+
+[Тепловая карта](graph_widgets/heatmap.md)
+
+## Общие инструменты
+
+[Палитры](common/palette_basics.md)

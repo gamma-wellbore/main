@@ -27,4 +27,4 @@
 
 ## Связанные страницы:
 
-[import_tables](../workflow/import_tables.md)
+[import_tables](../ioс/input/import_tables.md)

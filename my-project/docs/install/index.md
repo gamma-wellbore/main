@@ -1,3 +1,7 @@
+---
+icon: material/newspaper-variant-outline
+---
+
 
 # Инструкция по установке ПО
 

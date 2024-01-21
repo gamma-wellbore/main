@@ -1,5 +1,5 @@
 site_name: Платформа Гамма. Справочник
-#site_url: https://gamma-manual.ru/
+site_url: https://gamma-manual.ru/
 site_description: Инструкция по использованию ПО Гамма
 site_author: ООО "Омни Дата"
 use_directory_urls: false
@@ -32,7 +32,12 @@ theme:
     # - navigation.indexes
     #- navigation.instant
     #- navigation.instant.prefetch
-  
+    - search.suggest
+
+plugins:
+  - search
+  - offline
+  #- typeset
 
 markdown_extensions:
   - fenced_code
@@ -54,20 +59,36 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 
 
 nav:
+  - Главная:
+    - Содержание: index.md
+    - Установка ПО: install/index.md
+    - Интерфейс: ux/index.md
+    - Процессы: workflows/index.md
+    - Python: python/index.md
   - Установка:
     - Содержание: install/index.md
-    - Windows: install\windows\index.md
+    - Windows:
+      - install\windows\podman_windows.md
+      - install\windows\backend_setup_windows.md
+      - install\windows\install_podman_desktop.md
+      - install\windows\remoteserver_ip.md
+      - install\windows\client_win_install.md
     - Linux:
         - Обновление Python: install\linux\python_update_astra.md
         - install\linux\podman_linux_install.md
         - install\linux\server_install_update.md
         - install\linux\client_astra_install.md
         - install\linux\client_update.md
-    - Другое: install\windows\index.md
+    - Другое: install\other\index.md
   - Интерфейс:
     - Содержание: ux/index.md
     - Базовые окна:
@@ -85,13 +106,19 @@ nav:
       - Таблица: ux\graph_widgets\tableview.md
       - Карта: ux\graph_widgets\map.md
       - Тепловая карта: ux\graph_widgets\heatmap.md
-
-  - Обработка:
-    - processing/index.md
-  - Интерпретация: interpretation/index.md
+    - Общие инструменты:
+      - Палитры: ux\common\palette_basics.md
+  - Процессы:
+    - Содержание: workflows/index.md
+    - Базовая интерпретация ГИС: workflows\basic_interp.md
+    - Работа с  керном: workflows\core_basic.md
+    - Работа с инклинометрией: workflows\inclinometry.md
   - Python: python/index.md
+  #- mindmap: mindmap.md
   #- Другое: other/index.md
 
+not_in_nav:
+  /install/other/
 
 #copyright: Все права защищены, ООО "Омни Дата", 2024
 
@@ -116,3 +143,7 @@ extra:
           data: 0
           note: >-
             Спасибо за ваше мнение. Мы подумаем как сделать лучше.
+
+
+exclude_docs:
+  /templates/

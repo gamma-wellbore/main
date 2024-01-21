@@ -1,3 +1,6 @@
+---
+icon: material/newspaper-variant-outline
+---
 # Инструкция для ПО Гамма
 
 
@@ -10,10 +13,10 @@
 
 -	[Установка ПО](install/index.md)
 	[![](files/gamma_install.jpg)](install/index.md)
-- [Пользовательский интерфейс](ux/index.md)
+- [Интерфейс](ux/index.md)
 	[![](files/main_window.png)](ux/index.md)
-- [Обзор процесса работы в ПО](workflow/index.md)
-	[![](files/workflow.png)](workflow/index.md)
+- [Обзор процессов работы в ПО](workflows/index.md)
+	[![](files/workflows.png)](workflows/index.md)
 - [Предобработка данных](processing/index.md)
 	[![](files/processing.png)](processing/index.md)
 - [Интерпретация данных ГИС](interpretation/index.md)
